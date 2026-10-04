@@ -1,5 +1,5 @@
 steps:
-  - name: 'europe-west3-docker.pkg.dev/$PROJECT_ID/ci-containers/antigravity-runner:latest'
+  - name: 'europe-west1-docker.pkg.dev/$PROJECT_ID/ci-containers/antigravity-runner:latest'
     entrypoint: 'bash'
     args:
       - '-c'
